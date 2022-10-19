@@ -1,4 +1,4 @@
-# Asset-Inventory-System
+# Asset-Inventory-Management-System
 
 An asset management inventory that can centralize the information and also tracks all the assets in an organization. 
 The project should implement all best practices. Only authorized people are allowed to use the app. 
