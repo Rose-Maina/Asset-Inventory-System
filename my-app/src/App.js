@@ -1,9 +1,12 @@
 import React from 'react'
+import Mainpage from './Components/Mainpage';
 
 function App() {
   return (
-    <div>App</div>
+    <>
+      <Mainpage/>
+    </>
   )
 }
 
-export default App
+export default App;
