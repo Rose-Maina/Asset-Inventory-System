@@ -7,23 +7,25 @@ function Sidebar() {
     
     return (
         <>
-        <div className="sidebar-details">
+        <div className="sidebar-list">
+            
             {SidebarData.map((val, key)=>{
                     return(
                         <div key={key}>
                             <NavLink to={val.path}
                                className="row"
-                               id={window.location.pathname === val.path ? "active" : ""}                     
+                               id={window.location.pathname === val.path ? "active" : ""}
+                               onClick={()=> {
+                                window.location.pathname = val.path}}                    
                             >
-                            <div>{val.icon}</div>
-                            <div>{val.title}</div>
+                            <div id="icon">{val.icon}</div>
+                            <div id="title">{val.title}</div>
                             </NavLink>
                             
                         </div>
                     )
                 })
             }
-  
         </div>
         </>
     )
