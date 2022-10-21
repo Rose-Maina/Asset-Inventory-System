@@ -1,9 +1,14 @@
 import React from 'react'
-
+import Category from './Components/Category.jsx'
 function App() {
   return (
-    <div>App</div>
+    <div>
+
+<Category/>
+
+    </div>
   )
 }
+
 
 export default App
