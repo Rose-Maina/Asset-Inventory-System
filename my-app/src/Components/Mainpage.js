@@ -9,8 +9,9 @@ function Mainpage() {
                 <Navbar/>
             </div>
 
-            <div>
-
+            <div className="sidebar-container">
+                <div className="side-bar"></div>
+                <div></div>
             </div>
         </>
     )

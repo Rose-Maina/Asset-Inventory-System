@@ -1,12 +1,14 @@
 body {
     margin: 0;
     padding: 0;
+    height: 100vw;
+    width: 100vw;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .nav-bar {
     height: 60px;
-    width: 100%;
+    width: 100vw;
     background-color: #030a32;
     display: flex;
     align-items: center;
@@ -23,4 +25,10 @@ body {
     color: white;
     font-size: larger;
     padding-left: 40px;
+}
+
+.side-bar {
+    height: 100vw;
+    width: 250px;
+    background-color: black;
 }
