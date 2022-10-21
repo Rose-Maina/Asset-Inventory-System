@@ -1,8 +1,6 @@
 body {
     margin: 0;
     padding: 0;
-    height: 100vw;
-    width: 100vw;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -32,3 +30,4 @@ body {
     width: 250px;
     background-color: black;
 }
+
